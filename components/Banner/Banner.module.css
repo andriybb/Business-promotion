@@ -1,0 +1,75 @@
+/* BannerSection.module.css */
+
+.bannerBox {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.bannerBoxJoin {
+  border-radius: 32px;
+  width: 968px;
+  height: 345px;
+  background: #02897a;
+  margin: 0 auto;
+  padding-left: 46px;
+  display: flex;
+  align-items: center;
+  transition:
+    color 0.3s ease-in 0.1s,
+    background-color 0.3s ease-in 0.1s,
+    scale 0.3s ease-in-out 0.1s;
+}
+
+.bannerBoxJoin:hover,
+.bannerBoxJoin:focus {
+  color: #02897a;
+  background-color: transparent;
+  scale: 1.05;
+  border: 2px solid #02897a;
+}
+
+.bannerList {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.joinText {
+  font-weight: 600;
+  font-size: 32px;
+  width: 510px;
+  line-height: 1.514;
+  color: #fff;
+  margin-bottom: 46px;
+  transition: color 0.5s ease-in;
+}
+
+.bannerBoxJoin:hover .joinText,
+.bannerBoxJoin:focus .joinText {
+  color: #02897a;
+}
+
+.joinBtn {
+  border: 1px solid #02897a;
+  border-radius: 8px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  color: #02897a;
+  transition:
+    color 0.7s ease-in,
+    background-color 0.7s ease-in,
+    scale 0.5s ease-in,
+    border 0.3s ease;
+}
+
+.joinBtn:hover,
+.joinBtn:focus {
+  color: #fff;
+  background-color: #02897a;
+  border: none;
+  scale: 1.1;
+}

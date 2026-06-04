@@ -1,0 +1,49 @@
+.priceFourthSection {
+  width: 920px;
+}
+.priceMainPageFourth {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
+  margin: 0px auto 8px auto;
+}
+.priceTextPageFourth {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+.plusBoxTextList li {
+  margin-top: 38px;
+}
+.plusBoxText {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  font-weight: 500;
+  font-size: 18px;
+  color: #22343d;
+  position: relative;
+}
+.plusBoxText::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border: 1px solid #e7e7e7;
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+}
+.plus {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.iconPlus {
+  fill: #02897a;
+}

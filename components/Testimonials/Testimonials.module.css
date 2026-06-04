@@ -1,0 +1,90 @@
+/* TestimonialsSection.module.css */
+
+.clientsMain {
+  line-height: 1.78;
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 98px;
+}
+
+.clientsText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+  width: 537px;
+  margin: 0 auto;
+}
+
+.clientsList {
+  display: flex;
+  gap: 64px;
+  margin-top: 40px;
+}
+
+.clientsListItem {
+  width: 327px;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  transition: border 0.45s ease-in-out;
+}
+
+.clientsListItem:hover,
+.clientsListItem:focus {
+  border: 0.5px solid #02897a;
+}
+
+.clientsFeedback {
+  padding: 28px 26px;
+}
+
+/* StarRating sub-component */
+.starsBox {
+  display: flex;
+  gap: 3.7px;
+  margin: 0;
+}
+
+.star {
+  fill: #f3cd03;
+}
+
+.notStar {
+  fill: transparent;
+  stroke: #f3cd03;
+}
+
+.feedbackText {
+  font-weight: 400;
+  font-size: 16px;
+  margin: 16px 0;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+
+.clientNameBox {
+  width: 145px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+
+.clientName {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}

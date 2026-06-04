@@ -1,0 +1,50 @@
+.priceThirdSection {
+  margin: 110px auto 190px auto;
+}
+.priceMainPageThird {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  text-align: center;
+  margin: 0px auto 56px auto;
+}
+.priceThirdSectionBox {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.priceThirdSectionList {
+  width: 543px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.priceThirdSectionListItemBox {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.iconComputerBox {
+  border-radius: 50%;
+  background-color: #f4f5f7;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.priceMainPageThirdSmall {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #22343d;
+}
+.textAboutPricing {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+  margin-left: 8px;
+  margin-top: 16px;
+}

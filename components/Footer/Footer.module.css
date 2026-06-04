@@ -1,0 +1,141 @@
+/* Footer.module.css */
+
+.footerContainer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footerList {
+  display: flex;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.footerLogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #22343d;
+  margin-bottom: 20px;
+}
+
+.socialList {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.socialBox {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #dedede;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+}
+
+.socialBox:hover {
+  border-color: #02897a;
+}
+
+.socialIcons {
+  fill: #22343d;
+  transition: fill 0.3s ease;
+}
+
+.socialBox:hover .socialIcons {
+  fill: #02897a;
+}
+
+.footerTextMainPages {
+  font-weight: 700;
+  font-size: 16px;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.footerTextPages {
+  font-weight: 400;
+  font-size: 14px;
+  color: #22343d;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+.footerTextPages:hover {
+  color: #02897a;
+}
+
+.footerForm {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.inputPhoneFooter {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.footerInput {
+  width: 240px;
+  height: 44px;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  padding: 0 40px 0 14px;
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  color: #22343d;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.footerInput:focus {
+  border-color: #02897a;
+}
+
+.telephone {
+  position: absolute;
+  right: 12px;
+  fill: #afafaf;
+  pointer-events: none;
+}
+
+.footerBtn {
+  border: none;
+  border-radius: 4px;
+  width: 175px;
+  height: 44px;
+  background: #02897a;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  transition:
+    scale 0.5s ease,
+    color 0.5s ease,
+    background-color 0.5s ease;
+}
+
+.footerBtn:hover,
+.footerBtn:focus {
+  color: #02897a;
+  background-color: #fff;
+  outline: 2px solid #02897a;
+  scale: 1.05;
+}
+
+.footerLastText {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #737373;
+  padding: 24px 0;
+  border-top: 1px solid #dedede;
+}

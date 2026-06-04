@@ -1,0 +1,91 @@
+/* ProcessSection.module.css */
+
+.processContainer {
+  margin-bottom: 100px;
+}
+
+.process {
+  font-weight: 700;
+  font-size: 32px;
+  max-width: 539px;
+  text-align: center;
+  margin: 0 auto;
+  color: #22343d;
+}
+
+.processText {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 542px;
+  margin: 25px auto 40px;
+}
+
+.customerBoxes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+  margin: 0 auto 25px;
+}
+
+.customerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 408px;
+  margin-bottom: 25px;
+}
+
+.customerBox img {
+  width: 98px;
+}
+
+.customerTextBox {
+  width: 281px;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  transition: scale 0.5s ease;
+}
+
+.customerBox:hover .customerTextBox,
+.customerBox:focus .customerTextBox {
+  scale: 1.1;
+}
+
+.customerText {
+  margin: 13px auto;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #2f281e;
+}
+
+.processBtn {
+  border: 2px solid transparent;
+  border-radius: 4px;
+  width: 216px;
+  height: 53px;
+  background: #02897a;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  transition:
+    scale 0.5s ease,
+    color 0.5s ease,
+    background-color 0.5s ease,
+    border-color 0.5s ease;
+}
+
+.processBtn:hover,
+.processBtn:focus {
+  color: #02897a;
+  background-color: #fff;
+  border-color: #02897a;
+  scale: 1.1;
+}

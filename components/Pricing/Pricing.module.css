@@ -1,0 +1,160 @@
+/* PricingSection.module.css */
+
+.priceMain {
+  font-weight: 700;
+  font-size: 32px;
+  max-width: 539px;
+  text-align: center;
+  margin: 0 auto;
+  color: #22343d;
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease 0.5s;
+}
+
+.priceText {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  max-width: 542px;
+  margin: 25px auto 40px;
+}
+
+.priceTable {
+  display: flex;
+  gap: 72px;
+  justify-content: center;
+}
+
+.priceBox {
+  text-align: center;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  min-width: 322px;
+  border-radius: 8px;
+  transition:
+    scale 0.5s ease,
+    color 0.5s ease,
+    background-color 0.5s ease;
+}
+
+.priceBox:hover,
+.priceBox:focus {
+  color: #fff;
+  background-color: #02897a;
+  scale: 1.1;
+}
+
+.priceTextMain {
+  font-weight: 700;
+  font-size: 24px;
+  color: #22343d;
+  background-color: inherit;
+  margin-top: 32px;
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease;
+}
+
+.priceBox:hover .priceTextMain,
+.priceBox:focus .priceTextMain {
+  color: #fff;
+  background-color: #02897a;
+}
+
+.priceTextAdded {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: 8px;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  max-width: 187px;
+  height: 100px;
+  margin: 16px auto;
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease 0.5s;
+}
+
+.money {
+  text-align: left;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  color: #02897a;
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease 0.5s;
+}
+
+.priceBox:hover .money,
+.priceBox:focus .money {
+  color: #fff;
+}
+
+.valueBox {
+  display: flex;
+  align-items: center;
+}
+
+.moneyValue {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #02897a;
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease 0.5s;
+  margin-bottom: 4px;
+}
+
+.perMonth {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #afafaf;
+}
+
+.priceTextCircs {
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 16px;
+  transition:
+    color 0.5s ease,
+    background-color 0.5s ease 0.5s;
+}
+
+.orderBtn {
+  border: 2px solid transparent;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: #02897a;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  margin: 30px auto 32px;
+  text-align: center;
+  transition:
+    scale 0.8s ease,
+    color 0.5s ease,
+    background-color 0.5s ease,
+    border-color 0.5s ease;
+}
+
+.orderBtn:hover,
+.orderBtn:focus {
+  color: #02897a;
+  background-color: #fff;
+  scale: 1.1;
+}
+
+.priceBox:hover .orderBtn,
+.priceBox:focus .orderBtn {
+  color: #02897a;
+  background-color: #fff;
+}

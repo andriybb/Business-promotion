@@ -1,0 +1,45 @@
+.enterpriseSection {
+  padding-top: 53px;
+  padding-bottom: 51px;
+  width: 100%;
+  background: linear-gradient(180deg, #f6f6f6 0%, rgba(246, 246, 246, 0) 100%);
+}
+.priceMainPageSecond {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  color: #22343d;
+  margin: 16px auto 8px auto;
+}
+.priceTextPageSecond {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 32px;
+}
+.getInThirdBtn {
+  display: block;
+  border-radius: 8px;
+  border-color: transparent;
+  width: 224px;
+  height: 44px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition:
+    scale 0.8s ease,
+    color 0.5s ease,
+    background-color 0.5s ease;
+}
+.getInThirdBtn:hover,
+.get-in-third-btn:focus {
+  color: #02897a;
+  background-color: #fff;
+  scale: 1.1;
+  border: #02897a solid 1px;
+}

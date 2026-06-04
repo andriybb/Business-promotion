@@ -1,0 +1,57 @@
+/* Header.module.css */
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #22343d;
+}
+
+.headerNavList {
+  display: flex;
+  gap: 32px;
+}
+
+.headerNavLink {
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.headerNavLink:hover,
+.headerNavLink:focus {
+  color: #02897a;
+}
+
+.headerNavLink.current {
+  color: #02897a;
+}
+
+.headerBtnList {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.headerBtn {
+  border: none;
+  background: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+  padding: 0 16px;
+  height: 44px;
+  transition:
+    scale 0.5s ease,
+    color 0.5s ease;
+}
+
+.headerBtn:hover,
+.headerBtn:focus {
+  color: #02897a;
+  scale: 1.1;
+}

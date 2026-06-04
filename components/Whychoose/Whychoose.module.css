@@ -1,0 +1,88 @@
+/* WhyChooseSection.module.css */
+
+.ourProductChoseSection {
+  padding-top: 24px;
+  padding-bottom: 64px;
+  text-align: center;
+  background-color: #f5f5f5;
+  width: 100%;
+}
+
+.chooseProduct {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
+}
+
+.ourProductsPlus {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.choose {
+  border: 1px solid #dedede;
+  border-radius: 10px;
+  width: 350px;
+  height: 305px;
+  transition:
+    background-color 0.5s ease,
+    scale 0.5s ease;
+}
+
+.choose:hover,
+.choose:focus {
+  background-color: #fff;
+  scale: 1.05;
+}
+
+.chooseIcon {
+  border-radius: 19px;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  margin: 32px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Різний колір іконки для кожної карточки */
+.ourProductsPlus li:nth-child(1) .chooseIcon {
+  background-color: #02897a;
+}
+
+.ourProductsPlus li:nth-child(2) .chooseIcon {
+  background-color: #4d8dff;
+}
+
+.ourProductsPlus li:nth-child(3) .chooseIcon {
+  background-color: #f03e3d;
+}
+
+.iconChoose {
+  fill: #fff;
+}
+
+.chooseOne {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0;
+  text-align: center;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.chooseText {
+  width: 275px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6875;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+  margin: 0 auto;
+}

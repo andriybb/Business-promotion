@@ -1,0 +1,30 @@
+/* OurClientsSection.module.css */
+
+.ourClientsSection {
+  padding-top: 100px;
+  padding-bottom: 117px;
+  text-align: center;
+}
+
+.clients {
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343d;
+  margin-bottom: 50px;
+}
+
+.ourClients {
+  max-width: 850px;
+  height: 82px;
+  display: flex;
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.imageClientCompany {
+  object-fit: contain;
+  height: 82px;
+  width: auto;
+}

@@ -1,7 +1,10 @@
+import ProductPage from "./Product/page";
 
-export default function Home() {
+
+export default function HomePage() {
   return (
-    
-<p>Hello, Next.js!</p>
+    <>
+<ProductPage />
+    </>
   );
 }

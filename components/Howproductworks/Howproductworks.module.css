@@ -1,0 +1,90 @@
+/* HowProductWorksSection.module.css */
+
+.howProductWork {
+  padding-top: 101px;
+  padding-bottom: 115px;
+}
+
+.productWork {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
+}
+
+.workProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.instructionMac {
+  width: 1027px;
+  margin: 0 auto;
+  display: flex;
+  gap: 89px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imageMacbook {
+  width: 500px;
+  height: auto;
+  object-fit: contain;
+}
+
+.instruction {
+  width: 438px;
+}
+
+.steps {
+  font-weight: 500;
+  font-size: 20px;
+  color: #22343d;
+}
+
+.instructionTitle {
+  font-weight: 600;
+  font-size: 24px;
+  color: #22343d;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.instructionText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+
+.getInBtn {
+  display: block;
+  margin-top: 78px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  width: 224px;
+  height: 44px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  transition:
+    scale 0.8s ease,
+    color 0.5s ease,
+    background-color 0.5s ease,
+    border-color 0.5s ease;
+}
+
+.getInBtn:hover,
+.getInBtn:focus {
+  color: #02897a;
+  background-color: #fff;
+  border-color: #02897a;
+  scale: 1.1;
+}
